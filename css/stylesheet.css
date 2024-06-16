@@ -1,0 +1,247 @@
+
+@font-face {
+    font-family: "TT Lakes";
+    src: url("TTLakes-Italic.eot");
+    src: local("TT Lakes Italic"), local("TTLakes-Italic"),
+        url("TTLakes-Italic.eot?#iefix") format("embedded-opentype"),
+        url("TTLakes-Italic.woff") format("woff"),
+        url("TTLakes-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+    font-size: 400;
+}
+
+            /* ALL PAGE */
+
+body {
+margin: 0;
+padding: 0;
+user-select: none;
+}
+
+.sidebar {
+    width: 320px;
+    height: 1024px;
+    box-shadow: -2px 2px 52px 0 rgba(14, 24, 80, 0.2);
+    background: #ffffff;
+    color: #1B1C21;
+    font-family: "TT Lakes";
+}
+
+            /* HEADER */
+
+.header {
+    display: flex;
+    height: 116px;
+}
+
+.header__button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff3e79;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: 2s linear;
+    box-shadow:
+    inset #41f6d7 0 -4px 8px,
+    inset rgba(252,255,255,.7) 0 3px 8px,
+    #1B1C21 0 3px 8px -3px,
+    #ff3e79 0px 0px 8px;
+}
+
+.header__button:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.header__button:active {
+    transition: linear;
+    background: #41f6d7;
+    box-shadow:
+    inset #ff3e79 0 -4px 8px,
+    inset rgba(252,255,255,.7) 0 3px 8px,
+    #1B1C21 0 3px 8px -3px,
+    #41f6d7 0px 0px 8px;
+}
+
+.toclose {
+    margin: 23px 17px 0 24px;
+}
+
+.toclose>img {
+    width: 16px;
+    height: 16px;
+}
+
+.header__logoCPS {
+    width: 97px;
+    height: 51px;
+    margin: 19px 78px 0 0;
+}
+
+.search {
+    margin: 23px 24px 0 0;
+}
+
+.search>img {
+    width: 17px;
+    height: 17px;
+}
+
+            /* MAIN */
+
+.navigation-list {
+    padding: 0;
+    margin-bottom: 268px;
+}
+
+.navigation-list__item {
+    list-style: none;
+    align-content: center;
+    position: relative;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    padding: 0;
+}
+
+.navigation-list__item:hover::before {
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: -8px;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 120px;
+    width: 4px;
+    height: 40px;
+    background: #41f6d7;
+}
+
+.navigation-list__link {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: #1B1C21;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+}
+
+
+.navigation-list__link:before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: -15px;
+    left: -20px;
+    right: 0px;
+    bottom: -17px;
+}
+
+.navigation-list__link:hover {
+    color: #7e7e82;
+}
+
+            /* FOOTER */
+
+.navigation-buttons {
+    display: flex;
+}
+
+.navigation-buttons__item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff3e79;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    box-shadow:
+    inset #41f6d7 0 -4px 8px,
+    inset rgba(252,255,255,.7) 0 3px 8px,
+    #1B1C21 0 3px 8px -3px,
+    #ff3e79 0px 0px 8px;
+}
+
+.navigation-buttons__item:hover {
+    transition: 0.5s linear;
+
+}
+
+.navigation-buttons__item:active {
+    transition: linear;
+    background: #41f6d7;
+    box-shadow:
+    inset #ff3e79 0 -4px 8px,
+    inset rgba(252,255,255,.7) 0 3px 8px,
+    #1B1C21 0 3px 8px -3px,
+    #41f6d7 0px 0px 8px;
+}
+
+.phone {
+    margin: 0 16px 16px 24px;
+}
+
+.chat {
+    margin: 0 16px 16px 0;
+}
+
+.profile {
+    margin: 0 auto 16px 0;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.contacts__mail {
+    text-decoration: none;
+    color: #1B1C21;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin: 0 auto 12px 24px;
+}
+
+.contacts__tel {
+    text-decoration: none;
+    color: #1B1C21;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    margin: 0 auto 40px 24px;
+}
+
+.language-buttons {
+    display: flex;
+    gap: 7px;
+    margin-left: 24px;
+}
+
+.language-buttons label {
+    border: none;
+    background-color: #ffffff;
+    width: 24px;
+    height: 24px;
+    color: #1B1C21;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    padding: 0;
+
+}
+
+.language-buttons input[type="radio"] {
+    display: none;
+}
+
+.language-buttons input[type="radio"]:checked + label {
+    color: #7e7e82;
+}
