@@ -45,7 +45,7 @@ user-select: none;
     cursor: pointer;
     transition: 2s linear;
     box-shadow:
-    inset #41f6d7 0 -4px 8px,
+
     inset rgba(252,255,255,.7) 0 3px 8px,
     #1B1C21 0 3px 8px -3px,
     #ff3e79 0px 0px 8px;
@@ -60,7 +60,7 @@ user-select: none;
     transition: linear;
     background: #41f6d7;
     box-shadow:
-    inset #ff3e79 0 -4px 8px,
+
     inset rgba(252,255,255,.7) 0 3px 8px,
     #1B1C21 0 3px 8px -3px,
     #41f6d7 0px 0px 8px;
@@ -159,7 +159,7 @@ user-select: none;
     padding: 0;
     cursor: pointer;
     box-shadow:
-    inset #41f6d7 0 -4px 8px,
+
     inset rgba(252,255,255,.7) 0 3px 8px,
     #1B1C21 0 3px 8px -3px,
     #ff3e79 0px 0px 8px;
@@ -174,7 +174,7 @@ user-select: none;
     transition: linear;
     background: #41f6d7;
     box-shadow:
-    inset #ff3e79 0 -4px 8px,
+
     inset rgba(252,255,255,.7) 0 3px 8px,
     #1B1C21 0 3px 8px -3px,
     #41f6d7 0px 0px 8px;
